@@ -1,4 +1,8 @@
 /* chat application stylesheet */
+.wrapper{
+	/*background-image: url("img/1.png");*/
+	background-color: #3333ff;
+}
 #messages{
 	width: 90%;
 	height: 500px;
@@ -12,6 +16,11 @@
 	font-family: 'Comfortaa', cursive;
 }
 .container_left{
+	/*background-image: url("img/2.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;*/
 	float: left;
 	width:60%;
 	height: 500px;
@@ -30,6 +39,7 @@
 	height: 20%;
 }
 h1{
+	margin-top: 0;
 	font-family: 'Comfortaa', cursive;
 	font-size: 40px;
 	color: #27BC4B;
@@ -43,6 +53,9 @@ label{
 #sender,#message{
 	width: 300px;
 	border: 1px solid #27BC4B;
+}
+#sender:focus,#message:focus{
+	background-color:#D3FC9F; 
 }
 #sender{
 	height: 50px;

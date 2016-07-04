@@ -5,7 +5,7 @@
 	<title>Chat application</title>
 	<link rel="stylesheet" type="text/css" href="Style/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
-</head>
+</head> 
 <body>
 	<center><h1>Chat Application</h1></center>
 <?php 
@@ -14,7 +14,7 @@
 <center>
 	<div id="feedback"></div><br>
 </center>
-<div class="container_left">
+<div class="container_left" style="background-image:url('img/3.png');background-repeat: no-repeat;background-position: center center;" >
 	<div class="row_upper">
 		<center>
 			<h1>Welcome to 24chat!</h1>
@@ -50,8 +50,8 @@
 	 </center>
  	</form>	
 
-	
 </div>
+
 <div class="container_right">
 	<div id="messages">
 
